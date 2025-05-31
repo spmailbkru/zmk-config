@@ -42,11 +42,11 @@
 
         raise_layer {
             bindings = <
-        &trans           &trans        &trans     &trans            &trans             &trans        &trans        &trans    &trans     &trans     &trans           &trans
-&trans  &kp KP_NUM       &kp KP_SLASH  &kp KP_N7  &kp KP_N8         &kp KP_N9          &none         &kp C_VOL_UP  &kp HOME  &kp PSCRN  &kp PG_UP  &kp SLCK         &kp CAPS         &trans
-        &mt LCTRL EQUAL  &none         &kp DEL    &kp SPACE         &kp BACKSPACE      &none         &kp C_MUTE    &kp LEFT  &kp UP     &kp RIGHT  &kp INS          &mt RCTRL K_APP
-        &trans           &kp KP_N0     &kp KP_N1  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp KP_DOT    &kp C_VOL_DN  &kp END   &kp DOWN   &kp PG_DN  &kp PAUSE_BREAK  &trans
-                                       &trans     &trans            &trans             &lt 0 RET     &lt 0 ESC     &trans    &trans     &trans
+        &none            &none         &none      &none             &none              &none         &none         &none     &none      &none      &none            &none 
+&none   &none            &none         &none      &none             &none              &none         &none         &none     &none      &none      &none            &none            &none
+        &none            &none         &kp DEL    &kp SPACE         &kp BACKSPACE      &none         &none         &none     &none      &none      &none            &none
+        &none            &none         &none      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none         &none         &none     &none      &none      &none            &none 
+                                       &none      &none             &none              &none         &none         &none     &none      &none
             >;
         };
     };
