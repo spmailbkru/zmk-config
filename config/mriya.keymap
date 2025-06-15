@@ -32,11 +32,11 @@
 
         lower_layer {
             bindings = <
-              &kp F1  &kp F2     &kp F3     &kp F4          &kp F5     &kp F6       &kp F7  &kp F8          &kp F9          &kp F10          &kp F11        &kp F12
-&kp CAPSLOCK  &trans  &none      &none      &none           &none      &kp GRAVE    &none   &kp HOME        &none           &kp PAGE_UP      &none          &none    &kp INSERT
-              &trans  &none      &none      &kp LEFT_SHIFT  &kp LCTRL  &none        &none   &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none          &none
-              &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)  &kp LC(B)    &none   &kp END         &kp DOWN_ARROW  &kp PAGE_DOWN    &kp BACKSLASH  &trans
-                                 &trans     &trans          &trans     &trans       &trans  &trans          &trans          &trans
+              &kp F1  &kp F2     &kp F3     &kp F4          &kp F5     &kp F6       &kp F7      &kp F8          &kp F9          &kp F10          &kp F11        &kp F12
+&kp CAPSLOCK  &trans  &none      &none      &none           &none      &kp GRAVE    &none       &kp HOME        &none           &kp PAGE_UP      &none          &none    &kp BACKSLASH
+              &trans  &none      &none      &kp LEFT_SHIFT  &kp LCTRL  &none        &kp INSERT  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none          &none
+              &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)  &kp LC(B)    &none       &kp END         &kp DOWN_ARROW  &kp PAGE_DOWN    &kp BACKSLASH  &trans
+                                 &trans     &trans          &trans     &trans       &trans      &trans          &trans          &trans
             >;
         };
 
